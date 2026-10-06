@@ -60,7 +60,7 @@
         // -----------------------------------------------------------------
         // 📌 จุดที่ต้องแก้: เอา URL ของเว็บแอป (ที่ได้จากการ Deploy Google Apps Script) มาวางแทนข้อความด้านล่างนี้
         // -----------------------------------------------------------------
-        const WEB_APP_URL = "เอา_URL_ของเว็บแอปมาวางตรงนี้"; 
+        const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbym8Ysyuw8q_kYFRHBZIMxgc1kGazm5SpVk87KsF9OYABSYp0-S4u3KNaqtwIrqGLE/exec"; 
 
         const defaultLat = 13.7563;
         const defaultLng = 100.5018;
@@ -97,7 +97,7 @@
         // ฟังก์ชันส่งข้อมูลไป Google Sheets & LINE
         function sendDataToSheet(statusText) {
             if (WEB_APP_URL.includes("เอา_URL")) {
-                console.warn("https://script.google.com/macros/s/AKfycbw0PYkgDa-Q4wY-Aki_W5k6gWHKCk8k3dMWw6tJlrd7oRHq2pQ5JsVwZhvKfYqclw/exec");
+                console.warn("ยังไม่ได้ใส่ Web App URL");
                 return;
             }
 
